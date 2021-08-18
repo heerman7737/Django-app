@@ -6,7 +6,7 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request,'myapp/base.html',{})
+    return render(request,'myapp/base.html',{'name':'Giang'})
 
 def home(response):
     return render(response, "myapp/home.html",{})
